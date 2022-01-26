@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "frontend",
+    "slug": "frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Matheus-Germano-kamke/Parlador-Ideal.git"
+    },
+    "author": "Matheus Germano",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Matheus-Germano-kamke/Parlador-Ideal/issues"
+    },
+    "homepage": "https://github.com/Matheus-Germano-kamke/Parlador-Ideal#readme",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.yourappname",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.yourcompany.yourappname",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
