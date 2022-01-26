@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "\"Parlador app\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles --coverage ",
+    "start-server": "node src/db/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matheus-Germano-kamke/Parlador-Ideal.git"
+  },
+  "author": "Matheus Germano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matheus-Germano-kamke/Parlador-Ideal/issues"
+  },
+  "homepage": "https://github.com/Matheus-Germano-kamke/Parlador-Ideal#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.2",
+    "js-cookie": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.7"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
