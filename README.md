@@ -1,6 +1,6 @@
 # Em andamento
 
-# Parlador-Ideal
+# Task-List
 
 O projeto consiste em um app de post, como um twitter por exemplo.
 
